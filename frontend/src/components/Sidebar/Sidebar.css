@@ -1,0 +1,328 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; /* Cover full height */
+    width: 250px;
+    background-color: #f9fafc;
+    border-right: 1px solid #e0e6ed;
+    overflow-y: auto; /* Add scrollbar if content overflows */
+  }
+  
+  .sidebar-inner {
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+  }
+  
+  .sidebar-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-title {
+    color: #8798ad;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .menu-item-blue2 {
+    background-color: #007bff; /* Blue background color */
+    border-radius: 8px; /* Border radius */
+    height: 50px; /* Increase height */
+    width: 440px; /* Increase height */
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: -20px;
+  }
+  .menu-item-blue2:hover{
+    background-color: #dc3545;
+    color: #e6f0fb;
+    transition: background 1.2s;
+  }
+  .menu-item-blue2:active{
+    background-color: #28a745;
+    color: #e0e6ed;
+    transition: background 1.2s;
+  }
+  .top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .menu-item-blue {
+    background-color: #007bff; /* Blue background color */
+    border-radius: 8px; /* Border radius */
+    height: 50px; /* Increase height */
+  }
+
+  .menu-item-blue .menu-link span {
+    color: #ffffff; /* White text color */
+  }
+  
+  .menu-item-blue .menu-link {
+    padding: 15px 20px; /* Adjust padding to center content vertically */
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .menu-link img {
+    margin-right: 10px;
+  }
+  
+  .submenu-container {
+    margin-top: 20px;
+  }
+  
+  .submenu-wrapper {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .submenu {
+    cursor: pointer;
+  }
+  
+  .submenu-link {
+    text-decoration: none;
+    color: #8798ad;
+    display: block;
+    padding: 8px 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submenu-link:hover {
+    background-color: #e6f0fb;
+  }
+  
+  .submenu ul {
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+
+  .submenu-container {
+    border-bottom: 1px solid #e0e6ed; /* Border separating submenu items */
+  }
+  
+  .submenu-wrapper {
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .submenu-link {
+    text-decoration: none;
+    color: #8798ad;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  .submenu-link:hover {
+    background-color: #f9fafc; /* Hover background color */
+  }
+  
+  .submenu ul {
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+
+
+
+
+  .submenu-container {
+    border-bottom: 1px solid #e0e6ed; /* Border separating submenu items */
+  }
+  
+  .submenu-wrapper {
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .menu-link img {
+    margin-right: 10px;
+  }
+  
+  .submenu-link {
+    text-decoration: none;
+    color: #8798ad;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  .submenu-link:hover {
+    background-color: #f9fafc; /* Hover background color */
+  }
+  
+  .submenu ul {
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+
+
+
+
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .menu-link svg {
+    margin-right: 10px; /* Add space between icon and text */
+    font-size: 20px; /* Adjust icon size */
+  }
+  
+  .submenu-link svg {
+    margin-right: 10px; /* Add space between icon and text */
+    font-size: 18px; /* Adjust icon size */
+  }
+  
+  .submenu-link span {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .submenu-link:hover {
+    background-color: #f9fafc; /* Hover background color */
+  }
+
+
+
+  .menu-link svg {
+    margin-right: 10px; /* Add space between icon and text */
+    font-size: 20px; /* Adjust icon size */
+  }
+  
+  .submenu-link svg {
+    margin-right: 10px; /* Add space between icon and text */
+    font-size: 18px; /* Adjust icon size */
+    color: #8798ad; /* Default color */
+  }
+  
+  .submenu-link span {
+    flex: 1; /* Take remaining space */
+  }
+  
+  /* Assigning colors based on icon names */
+  .submenu-link[href*="Teachers"] svg {
+    color: #007bff; /* Blue color for Teachers */
+  }
+  
+  .submenu-link[href*="Students"] svg {
+    color: #28a745; /* Green color for Students */
+  }
+  
+  .submenu-link[href*="Parents"] svg {
+    color: #ffc107; /* Yellow color for Parents */
+  }
+  
+  .submenu-link[href*="Apps"] svg {
+    color: #17a2b8; /* Teal color for Apps */
+  }
+  
+  .submenu-link[href*="Calendar"] svg {
+    color: #6610f2; /* Purple color for Calendar */
+  }
+  
+  .submenu-link[href*="Exam List"] svg {
+    color: #dc3545; /* Red color for Exam List */
+  }
+  
+  .submenu-link[href*="Holidays"] svg {
+    color: #fd7e14; /* Orange color for Holidays */
+  }
+  
+  .submenu-link[href*="Events"] svg {
+    color: #6c757d; /* Gray color for Events */
+  }
+  
+  .submenu-link:hover {
+    background-color: #f9fafc; /* Hover background color */
+  }
+
+section{
+  transform: translate(25vw,35vh);
+  width: 59vw;
+  height: 93vh;
+  box-shadow: 0 0px 0px 2px rgb(214, 212, 212);
+}
+.registration-form{
+  padding-left: 15%;
+}
+/* .container{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px black solid;
+} */
+.registration{
+ display: flex;
+ flex-direction: column;
+ padding-top: 20px;
+}
+.registration label{
+  text-transform: capitalize;
+  color: #727272;
+}
+.registration input{
+  width: 70%;
+  outline: 0;
+  border: 1px solid #929292;
+  padding: 15px;
+}
+
+.input-button button{
+  padding-inline: 34%;
+  padding-block: 0.9rem;
+  background-color: blue;
+  border: 0;
+  margin-block: 2%;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.input-button button:hover{
+  background-color: rgba(2, 2, 131, 0.979);
+}

@@ -1,0 +1,237 @@
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 999; /* Ensure it's above the sidebar */
+    width: 78%;
+    margin-left:270px;
+    height: 90px;
+    border-radius: 20px;
+  }
+  
+  .second-navbar {
+    margin-top: 150px; /* Adjust the margin as needed */
+    border-radius: 20px;
+  }
+  
+  .header-outer {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  
+  /* Styling for the inner container */
+  
+  
+  /* Styling for the second Navbar container */
+  
+  
+  /* Styling for the links in the Navbar */
+  .navbar-link {
+    margin-right: 10px; /* Smaller margin */
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Styling for the navbar logo */
+  .navbar-logo {
+    font-weight: bold;
+    margin-right: auto; /* Push the logo to the extreme left */
+  }
+  
+  
+  
+  /* Styling for the grid container */
+  /* Styling for the second navbar container */
+  .navbar-container.second-navbar {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+  }
+  
+  /* Styling for the grid container */
+  .grid-container {
+    width: calc(70% - 40px); /* Adjust width based on padding */
+    height: auto; /* Adjust height as needed */
+    margin: 10px 20px; /* Adjust margin as needed */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 10px; /* Adjust the gap as needed */
+    margin-top: 200px;
+    margin-left: 300px;
+  }
+  
+  /* Styling for the inner container */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: 50px; /* Adjusted margin */
+  }
+  
+  /* Styling for the mobile button */
+  .mobile_btn {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px; /* Adjusted font size */
+  }
+  
+  /* Styling for the logo */
+  .mobile-logo img {
+    width: 25px; /* Reduced width */
+    height: auto;
+  }
+  
+  /* Styling for the search input */
+  
+  
+  .top-nav-search .form-control {
+    width: 300px; /* Reduced width */
+    border-radius: 15px; /* Reduced border radius */
+    padding: 3px 8px; /* Reduced padding */
+    margin-right: 5px; /* Reduced margin */
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    height: 40px;
+  }
+  
+  .page-wrapper{
+    margin-top: 300px;
+  }
+
+  .top-nav-search .btn {
+    background-color: #007bff;
+    border-radius: 10px; /* Reduced border radius */
+    color: #fff;
+    border: none;
+    padding: 3px 10px; /* Reduced padding */
+    cursor: pointer;
+    height: 30px;
+    margin-left: -6px;
+  }
+  
+  /* Styling for user menu */
+  .user-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user-menu li {
+    display: inline-block;
+    margin-left: 15px; /* Reduced margin */
+  }
+  
+  .user-menu .nav-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+  /* Styling for the second navbar */
+  .second-navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    height: 60px;
+    margin-top: 110px;
+    width: 76%;
+    margin-left: 260px;
+  }
+  
+  .second-navbar .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .second-navbar .navbar-link {
+    margin-right: 20px; /* Adjust margin between links */
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .second-navbar .navbar-dashboard {
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  

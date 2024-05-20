@@ -1,0 +1,46 @@
+section{
+    transform: translate(25vw,35vh);
+    width: 69vw;
+    height: 95vh;
+    box-shadow: 0 0px 0px 2px rgb(214, 212, 212);
+}
+.registration-form{
+    padding-left:15%;
+}
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px black solid;
+} */
+.registration{
+   display: flex;
+   flex-direction: column;
+   padding-top: 20px;
+}
+.registration label{
+    text-transform: capitalize;
+    color: #727272;
+}
+.registration input{
+    width: 70%;
+    outline: 0;
+    border: 1px solid #929292;
+    padding: 15px;
+}
+
+.input-button button{
+    padding-inline: 34%;
+    padding-block: 0.9rem;
+    background-color: blue;
+    border: 0;
+    margin-block: 2%;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.input-button button:hover{
+    background-color: rgba(2, 2, 131, 0.979);
+}
+
+
